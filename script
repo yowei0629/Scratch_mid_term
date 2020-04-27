@@ -1,0 +1,12 @@
+#! /bin/bash
+
+mkdir problem1
+cd problem1
+mkdir temp1 temp2 temp3 
+mkdir temp1/aa1
+mkdir temp2/bb2
+mkdir temp3/cc1 temp3/cc2
+echo I am a1.txt > temp1/aa1/a1.txt
+echo I am b2.txt > temp2/bb2/b2.txt
+echo I am c1.txt > temp3/cc1/c1.txt
+echo I am c2.txt > temp3/cc2/c2.txt 
